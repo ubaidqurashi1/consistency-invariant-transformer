@@ -1,0 +1,1 @@
+python consistency_invariant.py --train --save_dir ./my_model --epochs 10

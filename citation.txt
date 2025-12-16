@@ -1,0 +1,6 @@
+@software{consistency_invariant_transformer_2024,
+  title = {Consistency-Invariant Transformer: Self-Improvement through Theoretical Invariants},
+  author = {AI Research},
+  year = {2024},
+  url = {https://huggingface.co/username/consistency-invariant-transformer}
+}

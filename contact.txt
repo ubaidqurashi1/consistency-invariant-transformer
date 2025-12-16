@@ -1,0 +1,40 @@
+
+## **Setup Instructions (setup.py)**
+
+```python
+from setuptools import setup, find_packages
+
+setup(
+    name="consistency-invariant-transformer",
+    version="1.0.0",
+    author="AI Research",
+    author_email="research@example.com",
+    description="A transformer model that learns by minimizing violation of theoretical invariants",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/username/consistency-invariant-transformer",
+    packages=find_packages(),
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+    ],
+    python_requires=">=3.8",
+    install_requires=[
+        "torch>=1.9.0",
+        "numpy>=1.19.0",
+        "transformers>=4.18.0",
+    ],
+    keywords=[
+        "artificial-intelligence",
+        "deep-learning",
+        "transformers",
+        "self-supervised-learning",
+        "consistency-training",
+        "invariant-learning"
+    ],
+)
