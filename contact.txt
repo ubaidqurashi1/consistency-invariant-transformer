@@ -8,11 +8,11 @@ setup(
     name="consistency-invariant-transformer",
     version="1.0.0",
     author="AI Research",
-    author_email="research@example.com",
+    author_email="qurashiubaid@gmail.com",
     description="A transformer model that learns by minimizing violation of theoretical invariants",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/username/consistency-invariant-transformer",
+    url="https://github.com/ubaidqurashi1/consistency-invariant-transformer",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
